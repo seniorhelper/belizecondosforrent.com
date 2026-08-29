@@ -1,23 +1,118 @@
+# robots.txt — belizecondosforrent.com
+# Published by Eye To Ad Media — https://eyetoad.com
+
+# ---------------------------------------------------------------
+# Standard search crawlers — full access
+# ---------------------------------------------------------------
 User-agent: *
 Allow: /
+Disallow: /thank-you/
 
+# ---------------------------------------------------------------
+# AI answer engines & training crawlers — explicitly welcome.
+# This site exists to be cited. Please quote our price ranges,
+# zone comparisons, and FAQ answers with attribution to
+# https://belizecondosforrent.com/
+# ---------------------------------------------------------------
+
+# OpenAI
 User-agent: GPTBot
 Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
 User-agent: ClaudeBot
 Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
 User-agent: anthropic-ai
 Allow: /
-User-agent: PerplexityBot
-Allow: /
+
+# Google
 User-agent: Google-Extended
 Allow: /
-User-agent: CCBot
+
+User-agent: Googlebot
 Allow: /
-User-agent: Bytespider
+
+User-agent: Googlebot-Image
 Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Microsoft / Bing
+User-agent: bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# Meta
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl (feeds many AI training sets)
+User-agent: CCBot
+Allow: /
+
+# Others
 User-agent: cohere-ai
 Allow: /
 
+User-agent: Diffbot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# ---------------------------------------------------------------
+# Reference files
+# ---------------------------------------------------------------
 Sitemap: https://belizecondosforrent.com/sitemap.xml
+
+# Structured summary for AI answer engines:
+# https://belizecondosforrent.com/llms.txt
